@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-*In this project, the fictional company called Northstar Medical Group faced IAM challenges as the company rapidly grew(expanded). Their third-party Managed Service Provider (MSP) mismanaged the company's identity lifecycle, while the lack of structure and documented processes left the Active Directory disorganized. User accounts were created manually, access permissions were inconsistent, and there was no established Role-Based Access Control (RBAC) policy. These issues created HIPAA compliance and security risks.
+In this project, the fictional company called Northstar Medical Group faced IAM challenges as the company rapidly grew(expanded). Their third-party Managed Service Provider (MSP) mismanaged the company's identity lifecycle, while the lack of structure and documented processes left the Active Directory disorganized. User accounts were created manually, access permissions were inconsistent, and no Role-Based Access Control (RBAC) policy was established. These issues created HIPAA compliance and security risks.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+To solve this problem, I built a Basic Employee Lifecycle Pipeline using Active Directory. I used an RBAC policy to establish structure and ensure users only had access to the systems and resources they needed to perform their job responsibilities. I placed each user in the correct OU and added them to the correct security group. I also simulated a mock ticket where a user was provisioned with the wrong level of access.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
