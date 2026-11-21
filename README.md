@@ -26,5 +26,7 @@ To solve this problem, I built a Basic Employee Lifecycle Pipeline using Active 
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
+* Solved a mock ticket where a user was given incorrect access
+* Implemented RBAC with security groups mapped to each department
+
 * [Add your third key accomplishment here]
